@@ -1,0 +1,17 @@
+{
+  "range": {
+    "maxWords": 50,
+    "maxChars": 300
+  },
+  "default": {
+    "minWords": 15,
+    "maxWords": 25,
+    "minChars": 50,
+    "maxChars": 80
+  },
+  "speed": {
+    "min": 150,
+    "max": 250
+  },
+  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque erat enim, congue ac tincidunt id, laoreet eget magna. Aliquam a nibh id orci laoreet rutrum. Sed sollicitudin erat sit amet enim pellentesque, quis facilisis nisl facilisis. Quisque eu metus tempor, accumsan elit ut, tincidunt mi morbi congue id arcu pretium convallis. Sed nisi nibh, rutrum vulputate tristique lacinia, cursus in lorem. Nullam tempus, risus nec interdum semper, nunc augue efficitur libero, eu hendrerit metus velit eget ligula. Mauris euismod, nibh in varius posuere, massa leo pellentesque lectus, et bibendum purus odio at orci. Ut aliquet nibh eu nisl maximus, sed ornare erat ultricies morbi faucibus orci at lectus volutpat fringilla integer pulvinar ante augue, eu malesuada nunc consectetur at quisque accumsan erat ut. Imperdiet vestibulum cras venenatis pellentesque tortor, quis imperdiet nulla maximus vel sed dignissim vehicula fringilla."
+}
