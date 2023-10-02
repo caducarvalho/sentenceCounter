@@ -7,10 +7,10 @@ const Header = () => {
 
   return (
     <div className="pb-4 border-b flex flex-col sm:flex-row gap-3 justify-between items-start sm:items-center">
-      <h1 className="flex items-center gap-3 text-3xl font-bold tracking-tight">
+      <h1 className="flex items-center gap-3 text-3xl font-extrabold tracking-tighter">
         <img
           src={Logo}
-          alt="Line Counter logo"
+          alt="Sentence Counter logo"
           width={32}
           height={32}
           className="block w-8 h-8"
@@ -43,7 +43,7 @@ const Header = () => {
             <div className="bg-white p-4 flex flex-col gap-4 sm:p-6">
               <img
                 src={Logo}
-                alt="Line Counter logo"
+                alt="Sentence Counter logo"
                 width={64}
                 height={64}
                 className="block w-16 h-16 mx-auto"

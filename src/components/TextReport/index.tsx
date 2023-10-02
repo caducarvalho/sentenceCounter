@@ -73,7 +73,7 @@ const TextReport = ({
       </dl>
 
       <dl className="flex flex-col gap-1">
-        <dt className="text-xs text-gray-400">Undersized sentences</dt>
+        <dt className="text-xs text-gray-400">Too short sentences</dt>
         <dd
           className={`text-xs font-bold ${
             getUnrangedSentences(text) > 0 ? "text-red-600" : "text-green-600"
@@ -84,7 +84,7 @@ const TextReport = ({
       </dl>
 
       <dl className="flex flex-col gap-1">
-        <dt className="text-xs text-gray-400">Oversized sentences</dt>
+        <dt className="text-xs text-gray-400">Too long sentences</dt>
         <dd
           className={`text-xs font-bold ${
             getUnrangedSentences(text, true) > 0
